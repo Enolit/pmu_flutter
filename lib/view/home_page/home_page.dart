@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project/domain/card.dart';
+import 'package:project/view/details_page/details_page.dart';
 import 'package:project/view/home_page/home_card.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -83,35 +84,35 @@ class Body extends StatelessWidget {
         descriptionText: 'Hello 3 text',
         icon: Icons.add,
         imageUrl:
-        'https://unsplash.com/photos/qGgqWwEMCsA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
+            'https://unsplash.com/photos/qGgqWwEMCsA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
         descriptionText: 'Hello 3 text',
         icon: Icons.add,
         imageUrl:
-        'https://unsplash.com/photos/xo0KQrjYkuU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
+            'https://unsplash.com/photos/xo0KQrjYkuU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
         descriptionText: 'Hello 3 text',
         icon: Icons.add,
         imageUrl:
-        'https://unsplash.com/photos/5xtRR1jbioU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
+            'https://unsplash.com/photos/5xtRR1jbioU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
         descriptionText: 'Hello 3 text',
         icon: Icons.add,
         imageUrl:
-        'https://unsplash.com/photos/YUtBJywgc4I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
+            'https://unsplash.com/photos/YUtBJywgc4I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
         descriptionText: 'Hello 3 text',
         icon: Icons.add,
         imageUrl:
-        'https://unsplash.com/photos/VJpJFnMhLZ0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
+            'https://unsplash.com/photos/VJpJFnMhLZ0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
     ];
 
@@ -123,10 +124,33 @@ class Body extends StatelessWidget {
           children: data
               .map((data) => HomeCard.fromData(
                     data,
+                    onLike: (String title, bool isLiked) =>
+                        _showSnackBar(context, title, isLiked),
+                    onTap: () => _navigateToDetails(context, data),
                   ))
               .toList(),
         ),
       ),
     );
   }
+}
+
+void _showSnackBar(BuildContext context, String title, bool isLiked) {
+  WidgetsBinding.instance.addPostFrameCallback((_) {
+    ScaffoldMessenger.of(context).showSnackBar(SnackBar(
+      content: Text(
+        '$title is ${isLiked ? 'liked' : 'disliked'}!',
+        style: Theme.of(context).textTheme.bodyLarge,
+      ),
+      backgroundColor: Colors.lightGreen.shade900,
+      duration: const Duration(seconds: 1),
+    ));
+  });
+}
+
+void _navigateToDetails(BuildContext context, CardData data) {
+  Navigator.push(
+    context,
+    MaterialPageRoute(builder: (context) => DetailsPage(data)),
+  );
 }
