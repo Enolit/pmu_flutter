@@ -7,12 +7,10 @@ part 'home_card_text.dart';
 class HomeCard extends StatelessWidget {
   final String text;
   final String descriptionText;
-  final IconData icon;
   final String? imageUrl;
 
   const HomeCard(
     this.text, {
-    this.icon = Icons.ac_unit_outlined,
     required this.descriptionText,
     this.imageUrl,
     super.key,
@@ -23,7 +21,6 @@ class HomeCard extends StatelessWidget {
       HomeCard(
         data.text,
         descriptionText: data.descriptionText,
-        icon: data.icon,
         imageUrl: data.imageUrl,
       );
 

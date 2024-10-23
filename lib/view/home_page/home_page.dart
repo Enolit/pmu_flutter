@@ -32,84 +32,73 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final data = [
-      CardData('Hello',
+      CardData('Card',
           descriptionText: 'Beauty',
           imageUrl:
               'https://unsplash.com/photos/YYo7MgkLK9I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640'),
       CardData(
-        'Hello 2',
+        'Card 2',
         descriptionText: 'Beauty two',
-        icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/lsH8I32Asn8/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Card 3',
         descriptionText: 'Beauty three',
-        icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/X7UFvBn0vZc/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Card 4',
         descriptionText: 'Beauty four',
-        icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/GwXhULmCcmY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Card 5',
         descriptionText: 'Beauty five',
-        icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/q4Qp5MrIX-E/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 6',
         descriptionText: 'Beauty six',
-        icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/cVgBoubRjME/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 7',
         descriptionText: 'Beauty seven',
-        icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/Zjfb_sKPoiw/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 8',
         descriptionText: 'Beauty eight',
-        icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/qGgqWwEMCsA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 9',
         descriptionText: 'Beaty nine',
-        icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/xo0KQrjYkuU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 10',
         descriptionText: 'Beaty ten',
-        icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/5xtRR1jbioU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 11',
         descriptionText: 'Beauty eleven',
-        icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/YUtBJywgc4I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
+        'Hello 12',
         descriptionText: 'Beauty twelve',
-        icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/VJpJFnMhLZ0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
