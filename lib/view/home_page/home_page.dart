@@ -33,82 +33,82 @@ class Body extends StatelessWidget {
   Widget build(BuildContext context) {
     final data = [
       CardData('Hello',
-          descriptionText: 'Hello text',
+          descriptionText: 'Beauty',
           imageUrl:
               'https://unsplash.com/photos/YYo7MgkLK9I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640'),
       CardData(
         'Hello 2',
-        descriptionText: 'Hello 2 text',
+        descriptionText: 'Beauty two',
         icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/lsH8I32Asn8/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty three',
         icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/X7UFvBn0vZc/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty four',
         icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/GwXhULmCcmY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty five',
         icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/q4Qp5MrIX-E/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty six',
         icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/cVgBoubRjME/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty seven',
         icon: Icons.add,
         imageUrl:
             'https://unsplash.com/photos/Zjfb_sKPoiw/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty eight',
         icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/qGgqWwEMCsA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beaty nine',
         icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/xo0KQrjYkuU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beaty ten',
         icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/5xtRR1jbioU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty eleven',
         icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/YUtBJywgc4I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
         'Hello 3',
-        descriptionText: 'Hello 3 text',
+        descriptionText: 'Beauty twelve',
         icon: Icons.add,
         imageUrl:
         'https://unsplash.com/photos/VJpJFnMhLZ0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
