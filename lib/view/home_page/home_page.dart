@@ -33,84 +33,73 @@ class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final data = [
-      CardData('Hello',
-          descriptionText: 'Hello text',
+      CardData('Card',
+          descriptionText: 'Beauty',
           imageUrl:
               'https://unsplash.com/photos/YYo7MgkLK9I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640'),
       CardData(
-        'Hello 2',
-        descriptionText: 'Hello 2 text',
-        icon: Icons.add,
+        'Card 2',
+        descriptionText: 'Beauty two',
         imageUrl:
             'https://unsplash.com/photos/lsH8I32Asn8/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 3',
+        descriptionText: 'Beauty three',
         imageUrl:
             'https://unsplash.com/photos/X7UFvBn0vZc/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 4',
+        descriptionText: 'Beauty four',
         imageUrl:
             'https://unsplash.com/photos/GwXhULmCcmY/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 5',
+        descriptionText: 'Beauty five',
         imageUrl:
             'https://unsplash.com/photos/q4Qp5MrIX-E/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 6',
+        descriptionText: 'Beauty six',
         imageUrl:
             'https://unsplash.com/photos/cVgBoubRjME/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 7',
+        descriptionText: 'Beauty seven',
         imageUrl:
             'https://unsplash.com/photos/Zjfb_sKPoiw/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 8',
+        descriptionText: 'Beauty eight',
         imageUrl:
             'https://unsplash.com/photos/qGgqWwEMCsA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 9',
+        descriptionText: 'Beaty nine',
         imageUrl:
             'https://unsplash.com/photos/xo0KQrjYkuU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 10',
+        descriptionText: 'Beaty ten',
         imageUrl:
             'https://unsplash.com/photos/5xtRR1jbioU/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 11',
+        descriptionText: 'Beauty eleven',
         imageUrl:
             'https://unsplash.com/photos/YUtBJywgc4I/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
       CardData(
-        'Hello 3',
-        descriptionText: 'Hello 3 text',
-        icon: Icons.add,
+        'Card 12',
+        descriptionText: 'Beauty twelve',
         imageUrl:
             'https://unsplash.com/photos/VJpJFnMhLZ0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTF8fHJhY2Nvb258ZW58MHx8fHwxNzI3OTExMTU5fDA&force=true&w=640',
       ),
